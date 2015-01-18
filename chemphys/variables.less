@@ -21,14 +21,6 @@
 @brand-warning:         #f63;
 @brand-danger:          #e51c23;
 
-/*
-@brand-primary:         desaturate(lighten(#159, 20%), 15%);
-@brand-success:         desaturate(lighten(#4CAF50, 20%), 15%);
-@brand-info:            desaturate(lighten(#1be, 20%), 15%);
-@brand-warning:         desaturate(lighten(#f63, 20%), 15%);
-@brand-danger:          desaturate(lighten(#e51c23, 20%), 15%);
-*/
-
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
@@ -153,7 +145,7 @@
 @btn-font-weight:                normal;
 
 @btn-default-color:              @text-color;
-@btn-default-bg:                 #fff;
+@btn-default-bg:                 #eee;
 @btn-default-border:             #eee;
 
 @btn-primary-color:              #fff;
@@ -184,9 +176,9 @@
 //##
 
 //** `<input>` background color
-@input-bg:                       transparent;
+@input-bg:                       @gray-lighter;
 //** `<input disabled>` background color
-@input-bg-disabled:              transparent;
+@input-bg-disabled:              @gray-lighter;
 
 //** Text color for `<input>`s
 @input-color:                    @gray;
