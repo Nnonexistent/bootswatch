@@ -913,12 +913,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #115599;
+  color: #0088ff;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #092f54;
+  color: #005fb3;
   text-decoration: underline;
 }
 a:focus {
@@ -2388,7 +2388,7 @@ output {
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
-  cursor: not-allowed;
+  cursor: auto;
   background-color: #eeeeee;
   opacity: 1;
 }
@@ -2468,19 +2468,19 @@ input[type="radio"].disabled,
 input[type="checkbox"].disabled,
 fieldset[disabled] input[type="radio"],
 fieldset[disabled] input[type="checkbox"] {
-  cursor: not-allowed;
+  cursor: auto;
 }
 .radio-inline.disabled,
 .checkbox-inline.disabled,
 fieldset[disabled] .radio-inline,
 fieldset[disabled] .checkbox-inline {
-  cursor: not-allowed;
+  cursor: auto;
 }
 .radio.disabled label,
 .checkbox.disabled label,
 fieldset[disabled] .radio label,
 fieldset[disabled] .checkbox label {
-  cursor: not-allowed;
+  cursor: auto;
 }
 .form-control-static {
   padding-top: 7px;
@@ -2793,7 +2793,7 @@ select[multiple].form-group-lg .form-control {
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
-  cursor: not-allowed;
+  cursor: auto;
   pointer-events: none;
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -3071,7 +3071,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #115599;
+  color: #0088ff;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3092,7 +3092,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #092f54;
+  color: #005fb3;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3255,7 +3255,7 @@ tbody.collapse.in {
   background-color: transparent;
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  cursor: not-allowed;
+  cursor: auto;
 }
 .open > .dropdown-menu {
   display: block;
@@ -3662,13 +3662,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #bbbbbb;
   text-decoration: none;
   background-color: transparent;
-  cursor: not-allowed;
+  cursor: auto;
 }
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #115599;
+  border-color: #0088ff;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4410,7 +4410,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #092f54;
+  color: #005fb3;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -4435,7 +4435,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #bbbbbb;
   background-color: #ffffff;
   border-color: #dddddd;
-  cursor: not-allowed;
+  cursor: auto;
 }
 .pagination-lg > li > a,
 .pagination-lg > li > span {
@@ -4503,7 +4503,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > span {
   color: #bbbbbb;
   background-color: #ffffff;
-  cursor: not-allowed;
+  cursor: auto;
 }
 .label {
   display: inline;
@@ -4676,7 +4676,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #115599;
+  border-color: #0088ff;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -4923,7 +4923,7 @@ a.list-group-item:focus {
 .list-group-item.disabled:focus {
   background-color: #eeeeee;
   color: #bbbbbb;
-  cursor: not-allowed;
+  cursor: auto;
 }
 .list-group-item.disabled .list-group-item-heading,
 .list-group-item.disabled:hover .list-group-item-heading,
